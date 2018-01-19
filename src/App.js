@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import {
@@ -13,24 +12,32 @@ import {
   // Step, Table
 } from 'semantic-ui-react'
 
+import Script from 'react-load-script'
+
+
 const style = {
   h1: {
     marginTop: '1em'
   }
 }
 class App extends Component {
+
+  handleScriptCreate(e) {
+    console.log(this)
+  }
+
   render() {
     return (
       <div className="App">
+
         <Header style={style.h1} as="h1">Template Auto-mailer</Header>
         <Container>
           <Segment.Group>
-
+            <Segment>
+            </Segment>
             <Segment>
               <p>
-                Enter the
-                <b>Spreadsheet ID</b>
-                of the Google Sheet you wish to load
+                Enter the <b>Spreadsheet ID</b> of the Google Sheet you wish to load
               </p>
               <Input label="Spreadsheet ID"/>
               <Button>Load</Button>

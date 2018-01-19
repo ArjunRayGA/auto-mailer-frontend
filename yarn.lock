@@ -1181,6 +1181,10 @@ builtin-status-codes@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
 
+button@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/button/-/button-1.1.1.tgz#f6b9a30b473d0144f174ac379b821daaa93568f5"
+
 bytes@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.0.0.tgz#d32815404d689699f85a4ea4fa8755dd13a96048"
@@ -5137,6 +5141,14 @@ react-dom@^16.2.0:
 react-error-overlay@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
+
+react-google@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/react-google/-/react-google-0.0.3.tgz#b31632f23775a8439cd67c52d0574e8576f0ced5"
+
+react-load-script@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/react-load-script/-/react-load-script-0.0.6.tgz#db6851236aaa25bb622677a2eb51dad4f8d2c258"
 
 react-scripts@1.0.17:
   version "1.0.17"
